@@ -1,0 +1,94 @@
+<!-- Merrick Pilon, mpilon7730@conestogac.on.ca-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Merrick's Webpage</title>
+</head>
+
+<body>
+    <header class="structural">
+        <h1>Lorem Ipsum</h1>
+    </header>
+
+    <nav class="structural">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="structural">
+
+        <form name="contact">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Name" autofocus required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>What section of PROG1245 are you in?</legend>
+                    <input type="radio" name="section4" id="section4" required checked>
+                    <label for="section4">Section 4</label>
+                    <br>
+                    <input type="radio" name="section6" id="section6">
+                    <label for="section6">Section 6</label>
+                    <br>
+                    <input type="radio" name="section8" id="section8">
+                    <label for="section8">Section 8</label>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <label>What do you need help with?</label>
+                    <select id="help" name="help" required>
+                        <option value="" selected>Select Option</option> 
+                        <option value="html">HTML</option> 
+                        <option value="css">CSS</option>
+                        <option value="both">Both (HTML and CSS)</option>
+
+                    </select>
+                </fieldset>
+            </div>
+            <div>
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="comments" cols="100" rows="4" required></textarea>
+            </div>
+            <div>
+                <input type="checkbox" name="human" id="human" value="true" required>
+                <label for="human">I am a human</label>
+            </div>
+            <div>
+                <input type="submit" class="button" name="submit" id="submit" value="Submit">
+            </div>
+
+        </form>
+        
+    </main>
+    
+    <aside class="structural">
+        <h2>List of External Websites</h2>
+
+        <ul>
+            <li><a href="https://www.lipsum.com/" target="_blank">First</a></li>
+            <li><a href="https://www.conestogac.on.ca/" target="_blank">Second</a></li>
+        </ul>
+    </aside>
+   
+    <footer class="structural">
+        <p>
+            &copy Merrick Pilon, 2023.
+        </p>
+    </footer>
+</body>
+
+</html>
